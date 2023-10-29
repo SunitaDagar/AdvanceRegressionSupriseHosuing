@@ -22,14 +22,6 @@ Test Train Split and Scaling
 Model Prediction and Evaluation ( MLR ,Ridge and Lasso Regression )
 Conclusions and Results
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
 - Build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 - Determine the optimal value of lambda for ridge and lasso regression.
@@ -40,7 +32,8 @@ Conclusions and Results
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Out of 40 features in the final model, top 10 features in order of descending importance are 1stFlrSF, OverallQual, 2ndFlrSF, OverallCond, LotArea,BsmtFinSF1, GarageArea, BsmtQual, Neighborhood_Somerst, SaleType_New
+Top 10 features in order of descending importance are are 'Total_sqr_footage', 'OverallQual', 'Neighborhood_NoRidge', 'LotArea', 'Neighborhood_NridgHt', 'Neighborhood_StoneBr', 'GarageCars', 'Exterior2nd_BrkFace', 'Neighborhood_Somerst', 'OverallCond'
+
 - Lasso Regression is chosen as final model for having slightly better R-square value on test data.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
